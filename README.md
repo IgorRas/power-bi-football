@@ -1,37 +1,27 @@
-# ⚽ Panel analityczny klubów piłkarskich
+#  Panel analityczny klubów piłkarskich
 
 Interaktywny dashboard wykonany w **Microsoft Power BI**, służący do analizy danych dotyczących klubów piłkarskich, zawodników, transferów oraz meczów.
 
 Projekt skupia się na praktycznym wykorzystaniu **modelowania danych, języka DAX oraz interaktywnych wizualizacji** do tworzenia dynamicznego raportu analitycznego.
 
----
-
-## ✨ Features
-
-* 🔎 **Dynamiczne filtrowanie** danych za pomocą slicerów
-* 📈 Analiza wyników i statystyk meczowych
-* 💰 Analiza transferów i bilansu transferowego
-* 👥 Analiza zawodników i ich wartości
-* 🏟️ Analiza frekwencji oraz stadionów
-* 📊 Dynamiczne KPI i miary
-* 🎨 Conditional formatting dla czytelniejszej prezentacji danych
-* 🔄 Automatyczna aktualizacja wizualizacji na podstawie wybranych filtrów
+Stworzony na podstawie danych z witryny [transfermarkt](https://www.transfermarkt.pl/) skompilowanych na [kaggle](https://www.kaggle.com/datasets/davidcariboo/player-scores).
 
 ---
 
-## 🛠️ Tech Stack
+##  Features
 
-| Technologia                | Zastosowanie                           |
-| -------------------------- | -------------------------------------- |
-| **Power BI**               | Dashboard i wizualizacja danych        |
-| **DAX**                    | Miary, obliczenia i logika analityczna |
-| **Data Modeling**          | Model danych i relacje między tabelami |
-| **Power BI Slicers**       | Interaktywne filtrowanie               |
-| **Conditional Formatting** | Dynamiczne formatowanie wizualizacji   |
+*  **Dynamiczne filtrowanie** danych za pomocą slicerów
+*  Analiza wyników i statystyk meczowych
+*  Analiza transferów i bilansu transferowego
+*  Analiza zawodników i ich wartości
+*  Analiza frekwencji oraz stadionów
+*  Dynamiczne KPI i miary
+*  Conditional formatting dla czytelniejszej prezentacji danych
+*  Automatyczna aktualizacja wizualizacji na podstawie wybranych filtrów
 
 ---
 
-## 🗂️ Model danych
+##  Model danych
 
 Projekt wykorzystuje relacyjny model danych składający się z tabel dotyczących m.in.:
 
@@ -60,7 +50,7 @@ Wizualizacje / KPI
 
 ---
 
-## 🧮 DAX
+##  DAX
 
 W projekcie wykorzystano zarówno podstawowe funkcje agregujące, jak i funkcje pozwalające na pracę z kontekstem filtrowania.
 
@@ -87,7 +77,7 @@ Miara wykorzystuje wartość wybraną przez użytkownika w slicerze i na jej pod
 
 ---
 
-## 🎛️ Interaktywność
+##  Interaktywność
 
 Jednym z głównych założeń projektu było stworzenie raportu, który reaguje na wybory użytkownika.
 
@@ -99,7 +89,7 @@ Pozwala to analizować konkretny klub bez konieczności tworzenia osobnych rapor
 
 ---
 
-## 🎯 Cel projektu
+## Cel projektu
 
 Projekt został stworzony w celu rozwijania praktycznych umiejętności związanych z:
 
